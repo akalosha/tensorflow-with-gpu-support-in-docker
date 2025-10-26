@@ -5,6 +5,7 @@ Unfortunately, with the settings from there, the container did not see my GPU.
 
 Command to run docker:
 docker run --gpus all -it tensorflow/tensorflow:latest-gpu bash
+
 And with this code:
 import tensorflow as tf;
 print(tf.config.list_physical_devices('GPU'))
