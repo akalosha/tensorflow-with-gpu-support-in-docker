@@ -1,5 +1,6 @@
 Official setup page for tensorflow:
 https://www.tensorflow.org/install/docker
+
 Unfortunately, with the settings from there, the container did not see my GPU.
 
 Command to run docker:
